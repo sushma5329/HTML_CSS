@@ -9,3 +9,14 @@ header {
 h1 {
     color: #0040df
 }
+
+nav {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 10px;
+}
