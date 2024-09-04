@@ -23,6 +23,23 @@ ul li {
     padding: 10px 20px;
 }
 
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: whitesmoke;
+    color: #000;
+    border-radius: 5px;
+}
+
 .card1 img {
     max-width: 130%;
     border-radius: 10px;
