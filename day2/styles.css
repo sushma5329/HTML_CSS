@@ -4,16 +4,14 @@ body {
 
 header {
     text-align: center;
-
-    img {
-
-        filter: opacity(0.3);
-
-    }
 }
 
 h1 {
     color: #0040df
+}
+
+h2 {
+    color: white;
 }
 
 nav {
@@ -29,21 +27,9 @@ ul li {
     padding: 10px 20px;
 }
 
-nav li a {
+ul li a {
     text-decoration: none;
     color: white;
-}
-
-.nav-link {
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.nav-link:hover {
-    background-color: whitesmoke;
-    color: #000;
-    border-radius: 5px;
 }
 
 .card1 img {
@@ -59,9 +45,20 @@ nav li a {
     padding: 10px;
 }
 
-
 .lii {
     padding: 10px;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+    color: #000;
+    border-radius: 5px;
 }
 
 .card1 {
@@ -80,8 +77,8 @@ nav li a {
     background-color: #f4f4f4;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    width: 180px;
+    padding: 10px;
+    width: 170px;
     height: 170px;
     flex-direction: column;
     text-align: center;
@@ -99,7 +96,7 @@ nav li a {
     color: #333;
 }
 
-.learnmoretag {
+.btn {
     background-color: #007bff;
     color: white;
     padding: 10px 20px;
@@ -111,16 +108,65 @@ nav li a {
     display: inline-block;
 }
 
-.learnmoretag:hover {
+.btn:hover {
     background-color: #0056b3;
 }
 
 .header {
-    background-color: #433f3f;
-    background-image: url('Computer_science_education.png');
+    background-color: #1a1a1a;
+    background-image: url('abcd.png');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
     padding: 50px 20px;
+}
+
+.honeycomb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.hexagon {
+    position: relative;
+    width: 150px;
+    height: 130px;
+    background-color: #e0e0e0;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.hexagon:nth-child(odd) {
+    margin-top: 65px;
+}
+
+.hexagon:hover {
+    background-color: yellow;
+}
+
+.hex-content {
+    text-align: center;
+    color: blue;
+}
+
+.hex-content h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: blue;
+}
+
+.hex-content p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+h3 {
+    color: #0040df;
 }
