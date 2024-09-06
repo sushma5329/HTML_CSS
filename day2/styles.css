@@ -4,6 +4,12 @@ body {
 
 header {
     text-align: center;
+
+    img {
+
+        filter: opacity(0.3);
+
+    }
 }
 
 h1 {
@@ -91,4 +97,30 @@ nav li a {
 .card-description {
     font-size: 14px;
     color: #333;
+}
+
+.learnmoretag {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.learnmoretag:hover {
+    background-color: #0056b3;
+}
+
+.header {
+    background-color: #433f3f;
+    background-image: url('Computer_science_education.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
