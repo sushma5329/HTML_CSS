@@ -20,6 +20,8 @@ nav {
     text-align: center;
 }
 
+
+
 ul li {
     list-style-type: none;
     color: aliceblue;
@@ -169,4 +171,28 @@ ul li a {
 
 h3 {
     color: #0040df;
+}
+
+.icons {
+    width: 2px;
+    height: 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+footer {
+    border: 10px solid gainsboro;
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer img:hover {
+    transform: scale(1.5);
 }
